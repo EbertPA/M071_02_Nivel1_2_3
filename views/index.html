@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio M071_02</title>
+
+    <link rel="stylesheet" href="../css/mystyle.css">
+
+    <script src="../models/rocket.js"></script>
+    <script src="../models/booster.js"></script>
+    <script src="../controllers/controller.js"></script>
+
+</head>
+
+<body>
+    <h2>Rockets!!</h2>
+    <main>
+        <div class=" container">
+            <div class="col-md-3 my-2">
+                <button type="button" id="createRocket1" class="btn btn-light btn-sm border">Create Rocket 1</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="createRocket2" class="btn btn-light btn-sm border">Create Rocket 2</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="startGame" class="btn">Start Game</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-4 my-2">
+                <button type="button" id="powerMaxRocket1" class="btn btn-light btn-sm border">Potencia Máxima Rocket
+                    1</button>
+            </div>
+            <div class="col-md-4 my-2">
+                <button type="button" id="powerMaxRocket2" class="btn btn-light btn-sm border">Potencia Máxima Rocket
+                    2</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-3 my-2">
+                <button type="button" id="acelerateRocket1" class="btn btn-light btn-sm border">Acelerate Rocket
+                    1</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="acelerateRocket2" class="btn btn-light btn-sm border">Acelerate Rocket
+                    2</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="breakRocket1" class="btn btn-light btn-sm border">Break Rocket 1</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="breakRocket2" class="btn btn-light btn-sm border">Break Rocket 2</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="col-md-3 my-2">
+                <button type="button" id="printRocket1" class="btn btn-light btn-sm border">Print Rocket 1 info</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="printRocket2" class="btn btn-light btn-sm border">Print Rocket 2 info</button>
+            </div>
+            <div class="col-md-3 my-2">
+                <button type="button" id="printAllRockets" class="btn btn-light btn-sm border">Print all
+                    rockets</button>
+            </div>
+
+        </div>
+        <div id="rocketInfo"></div>
+
+    </main>
+    <img src="../imgs/rocketPng1.png" alt="Cohete" id="rocket1" height="40px">
+    <img src="../imgs/rocketPng2.png" alt="Cohete" id="rocket2" height="40px">
+</body>
+
+</html>
